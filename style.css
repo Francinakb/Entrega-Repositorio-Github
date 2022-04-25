@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(90, 39, 39);
+}
+nav a:hover{
+    color: black;
+}
+input:hover{
+    border-radius: 30px;
+}
+input:focus{
+    transform: scale(2,2);
+}
+.rotar{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(124, 106, 141);
+    /*transform: rotate(75deg);*/
+    transition: height, width 2s;
+}
+.rotar:hover{
+    height: 200px;
+    width: 300px;
+}
+.animacion{
+    text-align: center;
+    color: navy;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes animacion {
+    0%{
+        color: navy;
+        font-size: 32px;
+    }
+    25%{
+        color: brown;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100px;
+    }
+    50%{
+        color: aquamarine;
+        transform: rotate(35deg);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    75%{
+        color: coral;
+        font-size: 5px;
+    }
+    100%{
+        color: darkviolet;
+        font-size: 50px;
+        background-color: antiquewhite;
+    }
+}
