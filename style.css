@@ -2,6 +2,11 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    background-image: url(multimedia/Autocad-wallpaper-escritorio-pc-arquitectos-2.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -10,7 +15,7 @@ nav{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    color: rgb(90, 39, 39);
+    color: rgb(179, 61, 61);
 }
 nav a:hover{
     color: black;
